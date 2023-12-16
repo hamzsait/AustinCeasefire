@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Added thicker rounded edges */
+}
+
+.member-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Added thicker rounded edges */
+}
+
+.member-info, .check-progress {
+    flex-basis: 48%; /* Adjust as needed */
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    border-radius: 10px; /* Increased border-radius */
+}
+
+.status-icon {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.status-text {
+    display: inline;
+    margin-left: 10px;
+}
+
+.member-info {
+    text-align: center; /* Centers content horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Ensures all items are centered */
+    border-radius: 10px; /* Increased border-radius */
+}
+
+.member-photo {
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    margin: auto; /* Additional centering for the image */
+    border-radius: 10px; /* Increased border-radius */
+}
+
+.check-progress{
+    text-align: center; /* Centers content horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Ensures all items are centered */
+    border-radius: 10px; /* Increased border-radius */
+}
+
+.status-photo {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    margin: auto; /* Additional centering for the image */
+    border-radius: 10px; /* Increased border-radius */
+}
+
+.open-line {
+    width: 600px;
+    border-radius: 10px; /* Increased border-radius */
+}
+
+.centered-text {
+    text-align: center; /* Horizontally centers the text */
+    display: flex;
+    justify-content: center; /* Horizontally centers for flex children */
+    align-items: center; /* Vertically centers for flex children */
+    height: 100px; /* Or set to the height of your div */
+    border-radius: 10px; /* Increased border-radius */
+}
+
+.contact-container {
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-radius: 10px; /* Increased border-radius */
+    display: inline-block;
+    font-family: 'Arial', sans-serif;
+    font-size: 0.9em;
+}
+
+.contact-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-container a:hover {
+    text-decoration: underline;
+}
